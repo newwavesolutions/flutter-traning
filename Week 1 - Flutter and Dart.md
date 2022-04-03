@@ -19,7 +19,7 @@ description: View the slide with "Slide Mode".
 * **Slower releases**: when Google or Apple announce a major update for their OS, the main- tainers of the cross-platform solution could have the need to release an update to enable the latest features. The developers must wait for an update of the framework, which might slow down the work.
 
 **Ex:**
-![](https://i.imgur.com/tsPdeKD.png =300x)
+![](https://i.imgur.com/tsPdeKD.png)
 * **Flutter.** Created by Google, it uses Dart
 * **React Native.** Created by Facebook, it is based on javascript
 * **Xamarin.** Created by Microsoft, it uses the C#
@@ -33,16 +33,16 @@ description: View the slide with "Slide Mode".
 
 * **AOT compiled**: 
 ***A**head **O**f **T**ime compilation is the act of translating a high-level programming language, like Dart, into native machine code*
-![](https://i.imgur.com/Kn8yqBj.png =300x)
+![](https://i.imgur.com/Kn8yqBj.png)
 *Flutter SDK you can AOT compile your Dart code into a native binary for mobile, web and desktop.*
 
 * **Web**
 *With **dart2js** tool, your Dart project can be "transpiled" into fast and compact JavaScript code.*
-![](https://i.imgur.com/2GckS0o.png =300x)
+![](https://i.imgur.com/2GckS0o.png)
 
 #### 1.2.2 Hello world
 **DartPad**: https://dartpad.dartlang.org
-![](https://i.imgur.com/hwLMTaC.png =400x)
+![](https://i.imgur.com/hwLMTaC.png)
 * **main()**: entry point of the application. 
 * **print()**: method outputs to the console
 
@@ -52,10 +52,10 @@ description: View the slide with "Slide Mode".
 *Flutter is an UI toolkit for building natively compiled applications for mobile, desktop and web with a single codebase*
 #### 1.3.1 How does it work
 * **Native app** interacts with the OS, Kotlin (or Java) for Android or Swift (or Objective-C) for iOS
-![](https://i.imgur.com/JgHP3Xb.png =300x)
+![](https://i.imgur.com/JgHP3Xb.png)
 
 * **React Native** adding a ***bridge*** in the middle that takes care of the communication with the platform
-![](https://i.imgur.com/XH1Lkna.png =300x)
+![](https://i.imgur.com/XH1Lkna.png)
 
 * **Flutter**
 ![](https://i.imgur.com/4rY0iHd.png)
@@ -84,7 +84,7 @@ class MyApp extends StatelessWidget {
     }
 }
 ```
-![](https://i.imgur.com/bL7CUy4.png =300x)
+![](https://i.imgur.com/bL7CUy4.png)
 
 ---
 # 2.The Dart programming language
@@ -699,11 +699,11 @@ Java and C# have a very wide API to work with multiple threads and parallel comp
 **Dart**: 
 * There’s only a single thread with its own memory. You cannot create multiple threads
 * The Dart code (and thus Flutter applications) is run inside an **isolate** which has its own private area of memory and an event loop
-![](https://i.imgur.com/fWVPYQq.png =300x)
+![](https://i.imgur.com/fWVPYQq.png)
 
 > All the threads living on a process share the same memory. You need to be aware of this because writing the same data, at the same time, in the same memory area.
 
 ### Multiple isolates and Flutter
 * A single Dart application can have more than a single **isolate**; you can create them by using Isolate.spawn() from the **"dart:isolate"** library.
 * Isolates have their own event loop and memory area, there are no dependencies or shared components at all. The only way they have to communicate is via **messages**.
-![](https://i.imgur.com/U3m37bY.png =400x)
+![](https://i.imgur.com/U3m37bY.png)
