@@ -20,6 +20,7 @@ description: View the slide with "Slide Mode".
 
 **Ex:**
 ![](https://i.imgur.com/tsPdeKD.png)
+
 * **Flutter.** Created by Google, it uses Dart
 * **React Native.** Created by Facebook, it is based on javascript
 * **Xamarin.** Created by Microsoft, it uses the C#
@@ -34,6 +35,7 @@ description: View the slide with "Slide Mode".
 * **AOT compiled**: 
 ***A**head **O**f **T**ime compilation is the act of translating a high-level programming language, like Dart, into native machine code*
 ![](https://i.imgur.com/Kn8yqBj.png)
+
 *Flutter SDK you can AOT compile your Dart code into a native binary for mobile, web and desktop.*
 
 * **Web**
@@ -43,6 +45,7 @@ description: View the slide with "Slide Mode".
 #### 1.2.2 Hello world
 **DartPad**: https://dartpad.dartlang.org
 ![](https://i.imgur.com/hwLMTaC.png)
+
 * **main()**: entry point of the application. 
 * **print()**: method outputs to the console
 
@@ -59,6 +62,7 @@ description: View the slide with "Slide Mode".
 
 * **Flutter**
 ![](https://i.imgur.com/4rY0iHd.png)
+
 *Rendering engine: **Skia**
 Flutter produces native ARM code for the machine
 Faster than having a bridge.
